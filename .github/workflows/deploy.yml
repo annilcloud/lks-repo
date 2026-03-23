@@ -371,7 +371,7 @@ jobs:
           
           # Coba dengan timeout dan error handling
           if ! APP_EXISTS=$(aws amplify list-apps \
-            --query "apps[?name=='lks-amplify-order-app'].appId" \
+            --query "apps[?name=='lks-amplify-order-app'].appId | [0]" \
             --output text 2>/dev/null); then
             echo "❌ AWS credentials may be expired or invalid"
             echo "Please refresh your AWS Academy Learner Lab credentials"
