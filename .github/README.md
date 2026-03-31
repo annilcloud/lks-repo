@@ -43,5 +43,7 @@ The workflow runs automatically when:
 | AWS_ACCESS_KEY_ID   | AWS Access Key ID | V |
 | AWS_SECRET_ACCESS_KEY | AWS Secret Access Key | V |
 | AWS_SESSION_TOKEN | AWS Session Token (for temporary credentials) | V |
+| SMTP2GO_USERNAME | technobrainlab | V |
+| SMTP2GO_PASSWORD | technobrainlab | V |
 
 
