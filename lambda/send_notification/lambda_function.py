@@ -7,7 +7,7 @@ from datetime import datetime
 # AWS CLIENT
 # ==============================
 sns_client = boto3.client("sns")
-SNS_TOPIC_ARN = os.environ.get("SNS_TOPIC_ARN")
+SNS_TOPIC_ARN = os.environ.get(arn:aws:sns:us-east-1:561535936193:RedshiftSNS:ffeed989-4264-4ae9-be32-fca4184a39a6)
 
 
 def lambda_handler(event, context):
