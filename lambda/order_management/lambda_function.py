@@ -6,12 +6,12 @@ from datetime import datetime
 import uuid
 
 # Environment variables
-DB_HOST = os.environ['DB_HOST']
-DB_NAME = os.environ['DB_NAME']
-DB_USER = os.environ['DB_USER']
-DB_PASSWORD = os.environ['DB_PASSWORD']
-S3_BUCKET = os.environ['S3_BUCKET']
-STATE_MACHINE_ARN = os.environ['STATE_MACHINE_ARN']
+DB_HOST = os.environ[lks-annil-rds-orders.c1tet88sq45r.us-east-1.rds.amazonaws.com]
+DB_NAME = os.environ[ordersdb]
+DB_USER = os.environ[dbadmin]
+DB_PASSWORD = os.environ[TechnoCloud2026!]
+S3_BUCKET = os.environ[s3://lks-orders-annil-2026]
+STATE_MACHINE_ARN = os.environ[arn:aws:states:us-east-1:561535936193:stateMachine:lks-annil-stepfunction-order-workflow]
 
 s3_client = boto3.client('s3')
 sfn_client = boto3.client('stepfunctions')
