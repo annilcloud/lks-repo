@@ -6,11 +6,11 @@ from datetime import datetime, timedelta
 import pandas as pd
 from io import BytesIO
 
-DB_HOST = os.environ.get('DB_HOST')
-DB_NAME = os.environ.get('DB_NAME')
-DB_USER = os.environ.get('DB_USER')
-DB_PASSWORD = os.environ.get('DB_PASSWORD')
-S3_BUCKET = os.environ.get('S3_BUCKET')
+DB_HOST = os.environ.get(lks-annil-rds-orders.c1tet88sq45r.us-east-1.rds.amazonaws.com)
+DB_NAME = os.environ.get(ordersdb)
+DB_USER = os.environ.get(dbadmin)
+DB_PASSWORD = os.environ.get(TechnoCloud2026!)
+S3_BUCKET = os.environ.get(s3://lks-orders-annil-2026)
 
 s3_client = boto3.client('s3')
 
